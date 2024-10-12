@@ -1,0 +1,91 @@
+@font-face {
+    src:url(fonts/OneDirection.ttf)format("truetype");
+    font-family: nos;
+}
+
+.heading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 70px;
+    margin-top: 40px;
+    text-align: left;
+}
+.paragraph{
+    font-family: nos;
+    font-size: 24px;
+    margin-bottom: 50px;
+    margin-top: 300px;
+    margin-left: 2%;
+    margin-right: 50%;
+    line-height: 1.5;
+    font-family:sans-serif;
+    color: black;
+
+}
+.menu-bar
+{
+text-align:center;
+background-color: #000000;
+}
+.menu-bar ul
+{
+   display: inline-flex;
+   color:floralwhite
+}
+.menu-bar ul li
+{
+    font-family: Impact;
+    width: 120px;
+    margin: 8px;
+    padding: 10px;
+
+}
+
+.menu-bar ul li:hover
+{
+
+    background: floralwhite;
+    color: #000000;
+    border-radius:2px;
+}
+
+.explore-more {
+    color: floralwhite;
+    background: rgb(227, 26, 26);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-left: -15px;
+}
+
+.icon-container{
+    display: flex;
+    font-size: 2rem;
+    margin-top: 10px;;
+    line-height: 10%;
+    align-items: flex-start;
+    display: flex;
+    gap: 1px;
+}
+
+.icon-container a { margin-right:50px; }
+
+.icon-container :hover{
+    transform: scale(0.5);
+}
+
+.footer{
+    background-color:black;
+}
+.p1{
+    font-size: medium;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
